@@ -1,1 +1,36 @@
-Hello World
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>nukix</title>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("#flip").click(function(){
+            $("#panel").slideDown("slow");
+          });
+        });
+    </script>
+    <style type="text/css">
+    #panel,#flip
+    {
+        padding:5px;
+        text-align:center;
+        background-color:#e5eecc;
+        border:solid 1px #c3c3c3;
+    }
+    #panel
+    {
+        padding:50px;
+        display:none;
+    }
+    </style>
+</head>
+<body>
+    <div id="flip">点我滑下面板</div>
+    <div id="panel">Hello world!</div>
+</body>
+</html>
