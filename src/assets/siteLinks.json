@@ -23,5 +23,9 @@
     "icon": "LaptopCode",
     "name": "站点监测",
     "link": "https://kuma.uso6.com/"
+  },{
+    "icon": "Android",
+    "name": "Easy Feeder",
+    "link": "https://play.google.com/store/apps/details?id=com.uso6.easyfeeder"
   }
 ]
